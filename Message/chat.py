@@ -3,11 +3,11 @@ import json
 import urllib.parse
 import urllib.request
 
-secret = 'SECea9c8c72d968084565991cb250799cf27a0e5aef5214cca2d59251e153a833a8'
+secret = '' # 钉钉密钥
 
 def send(data):
     info = sign(secret)
-    url = "https://oapi.dingtalk.com/robot/send?access_token=ea17699de662449cc0189d875a94e072644e2745cc875847b75d00beb3b935bc&timestamp={}&sign={}".format(info[0],info[1])
+    url = ""
     header = {
             "Content-Type": "application/json",
             "Charset": "UTF-8"
