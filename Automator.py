@@ -9,9 +9,6 @@ import traceback
 import os
 import time
 
-'deviceName'
-'192.168.137.93:5555'
-
 desired_caps = {
   'platformName': 'Android',  # 连接设备为安卓系统
   'platformVersion': '10',  # 手机安卓版本,必须与设备匹配
